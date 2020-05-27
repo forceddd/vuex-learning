@@ -3,9 +3,6 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 //2.使用Vuex插件
 Vue.use(Vuex)
-//引入cart products模块
-import cart from './modules/cart';
-import products from './modules/products'
 //3.创建暴露的store实例
 export default new Vuex.Store({
   state: {
@@ -48,8 +45,5 @@ export default new Vuex.Store({
     }
   },
   modules: {
-    //挂载模块
-    cart,
-    products
   }
 })
