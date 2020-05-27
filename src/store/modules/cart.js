@@ -12,7 +12,8 @@ export default {
     },
     mutations: {
         addCart(state, product) {
-            //git提交测试修i该
+            //git修改测试二
+
             state.cartList.find(item => {
                 if (item.id === product.id) {
                     item.count++;
